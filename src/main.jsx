@@ -8,7 +8,7 @@ import 'bootswatch/dist/cerulean/bootstrap.min.css';
 
 import AboutPage from './pages/AboutPage.jsx';
 import AppsPage from './pages/AppsPage.jsx';
-import ErrorPage from './pages/ErrorPage.jsx';
+import ErrorPage from './pages/errorPage.jsx';
 import HomePage from './pages/HomePage.jsx'
 
 const router = createBrowserRouter([
@@ -33,7 +33,6 @@ const router = createBrowserRouter([
   },
 ]);
 
-// Render the RouterProvider component
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 );
